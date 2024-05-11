@@ -50,7 +50,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
       <Info>
         <Title>{name}</Title>
         <Address>{address}</Address>
-        <SvgXml xml={star} />
+        <SvgXml xml={star} width={20} height={20} />
       </Info>
     </RestaurantCard>
   );
